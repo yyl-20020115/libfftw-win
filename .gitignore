@@ -1,0 +1,9 @@
+fftw-3.3-libs/libfftwf-3.3/ARM/
+fftw-3.3-libs/libfftwf-3.3/Debug/
+fftw-3.3-libs/libfftwf-3.3/x64/
+*.suo
+*.sdf
+fftw-3.3-libs/Debug/
+*.vcxproj.user
+*.suo
+*.opensdf
