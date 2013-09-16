@@ -9,3 +9,4 @@ fftw-3.3-libs/Debug/
 *.opensdf
 fftw-3.3-libs/libfftw-3.3-winrt/Debug/
 *.ipch
+fftw-3.3-libs/libfftw-3.3-wp8/Debug/

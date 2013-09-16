@@ -42,6 +42,7 @@ int X(import_system_wisdom)(void)
      return 0; /* TODO? */
 #else
 
+#if 0 //fd:
      FILE *f;
 	 //fd: f = fopen(WISDOM_DIR WISDOM_NAME, "r");
      if (f) {
@@ -50,6 +51,8 @@ int X(import_system_wisdom)(void)
           return ret;
      } else
           return 0;
+#endif
+
 #endif
 	 
 }

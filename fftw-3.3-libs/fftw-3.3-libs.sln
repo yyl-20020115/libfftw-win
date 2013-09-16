@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bench", "bench\bench.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libfftw-3.3-winrt", "libfftw-3.3-winrt\libfftw-3.3-winrt.vcxproj", "{9527A775-2330-4035-8253-BFA7EC84AC0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libfftw-3.3-wp8", "libfftw-3.3-wp8\libfftw-3.3-wp8.vcxproj", "{F286669D-89E0-4AA8-837B-EAD00C329C60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -155,6 +157,26 @@ Global
 		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|Win32.Build.0 = Release|Win32
 		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|x64.ActiveCfg = Release|x64
 		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|x64.Build.0 = Release|x64
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Debug|ARM.Build.0 = Debug|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Debug|Win32.Build.0 = Debug|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Debug|x64.ActiveCfg = Debug|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Release|ARM.ActiveCfg = Release|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Release|ARM.Build.0 = Release|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Release|Win32.ActiveCfg = Release|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Release|Win32.Build.0 = Release|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Release|x64.ActiveCfg = Release|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Debug|ARM.ActiveCfg = Debug|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Debug|ARM.Build.0 = Debug|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Debug|Win32.ActiveCfg = Debug|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Debug|Win32.Build.0 = Debug|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Debug|x64.ActiveCfg = Debug|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Release|ARM.ActiveCfg = Release|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Release|ARM.Build.0 = Release|ARM
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Release|Win32.ActiveCfg = Release|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Release|Win32.Build.0 = Release|Win32
+		{F286669D-89E0-4AA8-837B-EAD00C329C60}.Static-Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
