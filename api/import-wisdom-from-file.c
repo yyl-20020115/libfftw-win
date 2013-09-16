@@ -72,7 +72,8 @@ int X(import_wisdom_from_file)(FILE *input_file)
 
 int X(import_wisdom_from_filename)(const char *filename)
 {
-     FILE *f = fopen(filename, "r");
+	return 0; //fd:
+	FILE *f = NULL;//fd:  fopen(filename, "r");
      int ret;
      if (!f) return 0; /* error opening file */
      ret = X(import_wisdom_from_file)(f);

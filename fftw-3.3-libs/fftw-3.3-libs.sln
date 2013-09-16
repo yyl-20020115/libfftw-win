@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bench", "bench\bench.vcxpro
 		{EA3DCC95-2423-4EA0-A508-7A427B4C0594} = {EA3DCC95-2423-4EA0-A508-7A427B4C0594}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libfftw-3.3-winrt", "libfftw-3.3-winrt\libfftw-3.3-winrt.vcxproj", "{9527A775-2330-4035-8253-BFA7EC84AC0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -129,6 +131,30 @@ Global
 		{64D2C338-62CF-4443-B8A3-FD1EB571BCA5}.Static-Release|Win32.Build.0 = Static-Release|Win32
 		{64D2C338-62CF-4443-B8A3-FD1EB571BCA5}.Static-Release|x64.ActiveCfg = Static-Release|x64
 		{64D2C338-62CF-4443-B8A3-FD1EB571BCA5}.Static-Release|x64.Build.0 = Static-Release|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Debug|ARM.Build.0 = Debug|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Debug|Win32.Build.0 = Debug|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Debug|x64.ActiveCfg = Debug|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Debug|x64.Build.0 = Debug|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Release|ARM.ActiveCfg = Release|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Release|ARM.Build.0 = Release|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Release|Win32.ActiveCfg = Release|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Release|Win32.Build.0 = Release|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Release|x64.ActiveCfg = Release|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Release|x64.Build.0 = Release|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Debug|ARM.ActiveCfg = Debug|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Debug|ARM.Build.0 = Debug|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Debug|Win32.ActiveCfg = Debug|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Debug|Win32.Build.0 = Debug|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Debug|x64.ActiveCfg = Debug|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Debug|x64.Build.0 = Debug|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|ARM.ActiveCfg = Release|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|ARM.Build.0 = Release|ARM
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|Win32.ActiveCfg = Release|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|Win32.Build.0 = Release|Win32
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|x64.ActiveCfg = Release|x64
+		{9527A775-2330-4035-8253-BFA7EC84AC0D}.Static-Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

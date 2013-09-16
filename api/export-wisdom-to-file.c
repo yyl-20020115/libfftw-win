@@ -30,7 +30,8 @@ void X(export_wisdom_to_file)(FILE *output_file)
 
 int X(export_wisdom_to_filename)(const char *filename)
 {
-     FILE *f = fopen(filename, "w");
+	return 0; //fd:
+	FILE *f = NULL; //fd: fopen(filename, "w");
      int ret;
      if (!f) return 0; /* error opening file */
      X(export_wisdom_to_file)(f);

@@ -7,3 +7,5 @@ fftw-3.3-libs/Debug/
 *.vcxproj.user
 *.suo
 *.opensdf
+fftw-3.3-libs/libfftw-3.3-winrt/Debug/
+*.ipch

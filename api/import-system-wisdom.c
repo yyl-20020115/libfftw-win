@@ -37,17 +37,19 @@
 
 int X(import_system_wisdom)(void)
 {
+	return 0; //fd: 
 #if defined(__WIN32__) || defined(WIN32) || defined(_WINDOWS)
      return 0; /* TODO? */
 #else
 
      FILE *f;
-     f = fopen(WISDOM_DIR WISDOM_NAME, "r");
+	 //fd: f = fopen(WISDOM_DIR WISDOM_NAME, "r");
      if (f) {
           int ret = X(import_wisdom_from_file)(f);
-          fclose(f);
+          //fd: fclose(f);
           return ret;
      } else
           return 0;
 #endif
+	 
 }
