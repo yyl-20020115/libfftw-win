@@ -8,6 +8,8 @@
 
 /* Define to compile in single precision. */
 #define BENCHFFT_SINGLE 1
+#define FFT_SINGLE 1
+
 
 /* Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
    systems. This function is required for `alloca.c' support on those systems.
@@ -216,7 +218,11 @@
 #define HAVE_SQRT 1
 
 /* Define to enable SSE/SSE2 optimizations. */
+#if (defined(__x86_64__) || defined(_M_X64) || defined(_M_AMD64)) || defined(_M_IX86)
 #define HAVE_SSE2 1
+#else
+#undef HAVE_SSE2
+#endif
 
 /* Define to 1 if you have the <stddef.h> header file. */
 #define HAVE_STDDEF_H 1

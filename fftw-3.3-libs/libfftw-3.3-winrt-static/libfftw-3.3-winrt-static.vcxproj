@@ -195,6 +195,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\simd-support\simd-common.h" />
+    <ClInclude Include="..\..\simd-support\simd-neon.h" />
+    <ClInclude Include="..\..\simd-support\simd-sse2.h" />
     <ClInclude Include="libfftw-3.3-winrt-static.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="targetver.h" />
@@ -2170,6 +2173,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\genus.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2184,6 +2189,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2198,6 +2205,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_11.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2212,6 +2221,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2226,6 +2237,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_128.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2240,6 +2253,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_13.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2254,6 +2269,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_14.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2268,6 +2285,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_15.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2282,6 +2301,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2296,6 +2317,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2310,6 +2333,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2324,6 +2349,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2338,6 +2365,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_3.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2352,6 +2381,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2366,6 +2397,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2380,6 +2413,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2394,6 +2429,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2408,6 +2445,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2422,6 +2461,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_7.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2436,6 +2477,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2450,6 +2493,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1bv_9.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2464,6 +2509,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2478,6 +2525,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_11.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2492,6 +2541,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2506,6 +2557,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_128.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2520,6 +2573,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_13.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2534,6 +2589,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_14.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2548,6 +2605,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_15.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2562,6 +2621,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2576,6 +2637,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2590,6 +2653,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2604,6 +2669,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2618,6 +2685,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_3.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2632,6 +2701,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2646,6 +2717,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2660,6 +2733,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2674,6 +2749,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2688,6 +2765,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2702,6 +2781,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_7.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2716,6 +2797,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2730,6 +2813,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n1fv_9.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2744,6 +2829,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2758,6 +2845,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2772,6 +2861,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_14.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2786,6 +2877,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2800,6 +2893,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2814,6 +2909,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2828,6 +2925,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2842,6 +2941,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2856,6 +2957,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2870,6 +2973,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2884,6 +2989,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2bv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2898,6 +3005,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2912,6 +3021,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2926,6 +3037,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_14.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2940,6 +3053,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2954,6 +3069,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2968,6 +3085,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2982,6 +3101,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -2996,6 +3117,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3010,6 +3133,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3024,6 +3149,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3038,6 +3165,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2fv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3052,6 +3181,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2sv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3066,6 +3197,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2sv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3080,6 +3213,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2sv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3094,6 +3229,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2sv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3108,6 +3245,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\n2sv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3122,6 +3261,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1bv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3136,6 +3277,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1bv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3150,6 +3293,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1bv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3164,6 +3309,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1bv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3178,6 +3325,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1fv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3192,6 +3341,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1fv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3206,6 +3357,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1fv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3220,6 +3373,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\q1fv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3234,6 +3389,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3248,6 +3405,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3262,6 +3421,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_3.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3276,6 +3437,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3290,6 +3453,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3304,6 +3469,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3318,6 +3485,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_7.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3332,6 +3501,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3346,6 +3517,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1buv_9.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3360,6 +3533,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3374,6 +3549,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3388,6 +3565,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_15.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3402,6 +3581,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3416,6 +3597,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3430,6 +3613,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3444,6 +3629,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3458,6 +3645,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_3.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3472,6 +3661,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3486,6 +3677,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3500,6 +3693,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3514,6 +3709,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3528,6 +3725,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3542,6 +3741,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_7.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3556,6 +3757,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3570,6 +3773,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1bv_9.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3584,6 +3789,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3598,6 +3805,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3612,6 +3821,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_3.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3626,6 +3837,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3640,6 +3853,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3654,6 +3869,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3668,6 +3885,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_7.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3682,6 +3901,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3696,6 +3917,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fuv_9.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3710,6 +3933,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3724,6 +3949,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3738,6 +3965,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_15.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3752,6 +3981,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3766,6 +3997,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3780,6 +4013,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3794,6 +4029,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3808,6 +4045,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_3.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3822,6 +4061,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3836,6 +4077,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3850,6 +4093,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3864,6 +4109,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3878,6 +4125,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3892,6 +4141,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_7.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3906,6 +4157,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3920,6 +4173,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1fv_9.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3934,6 +4189,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1sv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3948,6 +4205,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1sv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3962,6 +4221,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1sv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3976,6 +4237,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1sv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -3990,6 +4253,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t1sv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4004,6 +4269,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4018,6 +4285,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4032,6 +4301,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4046,6 +4317,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4060,6 +4333,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4074,6 +4349,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4088,6 +4365,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4102,6 +4381,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4116,6 +4397,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4130,6 +4413,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2bv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4144,6 +4429,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4158,6 +4445,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4172,6 +4461,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4186,6 +4477,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4200,6 +4493,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4214,6 +4509,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4228,6 +4525,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4242,6 +4541,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4256,6 +4557,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_64.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4270,6 +4573,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2fv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4284,6 +4589,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2sv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4298,6 +4605,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2sv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4312,6 +4621,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2sv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4326,6 +4637,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t2sv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4340,6 +4653,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4354,6 +4669,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4368,6 +4685,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4382,6 +4701,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4396,6 +4717,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4410,6 +4733,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4424,6 +4749,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4438,6 +4765,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3bv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4452,6 +4781,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4466,6 +4797,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4480,6 +4813,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4494,6 +4829,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_25.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4508,6 +4845,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4522,6 +4861,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4536,6 +4877,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_5.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4550,6 +4893,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\simd\sse2\t3fv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
@@ -4564,6 +4909,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)dft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)dft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\dft\solve.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)dft\</ObjectFileName>
@@ -8274,6 +8621,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\genus.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8288,6 +8637,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8302,6 +8653,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8316,6 +8669,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8330,6 +8685,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8344,6 +8701,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8358,6 +8717,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8372,6 +8733,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8386,6 +8749,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8400,6 +8765,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cbdftv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8414,6 +8781,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_10.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8428,6 +8797,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_12.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8442,6 +8813,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_16.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8456,6 +8829,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_2.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8470,6 +8845,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_20.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8484,6 +8861,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_32.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8498,6 +8877,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_4.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8512,6 +8893,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_6.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8526,6 +8909,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\simd\sse2\hc2cfdftv_8.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
@@ -8540,6 +8925,8 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|ARM'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">$(IntDir)rdft\simd\sse2\</ObjectFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\rdft\solve.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">$(IntDir)rdft\</ObjectFileName>
